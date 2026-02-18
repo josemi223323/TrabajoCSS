@@ -8,21 +8,39 @@ body {
 
 header {
     width: 100%;
-    background-color: yellow;
+    background-color: rgb(94, 209, 27);
     position: fixed;
     top: 0;
     z-index: 2;
+    border-radius: 0 0 10px 10px;
 }
 
 header h1 {
     margin: 0;
+    color: white;
     text-align: center;
 }
-
+nav{
+    background: rgb(155, 155, 155);
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+ 
+}
 .contenidoPrincipal {
     margin-top: 55px;
 }
-
+ul{
+    margin: 0;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+li{
+   float: left;
+   list-style-position: inside;
+   margin-right: 20px;
+    
+}
 .publicidad {
     background-color: grey;
     height: 400px;
@@ -35,7 +53,11 @@ header h1 {
 .derecha {
     right: 10px;
 }
-
+.imagenCentral{
+    position: relative;
+    left: 900px;
+    top: 100px;
+}
 .tablaPrincipal {
     position: relative;
     border: 1px solid black;
@@ -113,4 +135,16 @@ header h1 {
 #cerrarModal{
     display: none;
 }
-
+footer{
+    color: white;
+    background: rgb(89, 202, 24);
+    text-align: center;
+    position: fixed;
+    top: 98.1%;
+    width: 100%;
+}
+footer p{
+    margin: 0;
+    float: right;
+    margin-right: 60px;
+}

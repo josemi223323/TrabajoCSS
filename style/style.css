@@ -14,64 +14,98 @@ header {
     z-index: 2;
     border-radius: 0 0 10px 10px;
 }
+.efectoNeon {
+  color: #ffd6d2;
+  font-size: 60px;
+  text-shadow:
+    0 0 4px #df61ff,
+    0 0 8px #4aa4e0,
+    0 0 14px #5f1a7a;
+}
 
 header h1 {
     margin: 0;
     color: white;
     text-align: center;
 }
-nav{
+
+nav {
     background: rgb(155, 155, 155);
     overflow: hidden;
     border-radius: 0 0 10px 10px;
-     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
- 
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
 }
+
 .contenidoPrincipal {
     background-color: green;
     position: relative;
     top: 100px;
     overflow: hidden;
     width: 70%;
-    height: 500px;
     margin: auto;
     border-radius: 10px;
-     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 
 }
-.contenidoPrincipal h1{
+
+.contenidoPrincipal h1 {
     position: relative;
     text-align: center;
     color: black;
     font-family: sans-serif;
 }
-
-ul{
+.contenidoFormulario{
+    width: 25%;
+    margin: auto;
+}
+.contenidoFormulario input{
+    margin-bottom: 10px;
+}
+ul {
     margin: 0;
     list-style-type: disc;
     padding-left: 20px;
 }
-li{
-   float: left;
-   list-style-position: inside;
-   margin-right: 20px;
-    
+
+li {
+    float: left;
+    list-style-position: inside;
+    margin-right: 20px;
+
 }
-a:link{
+
+a:link {
     color: black;
     text-decoration: none;
 }
-.imagenIzquierda{
+
+.contenidoPrincipal img {
+    border: 3px, solid, black;
+
+}
+
+.imagenIzquierda {
     float: left;
     clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.imagenDerecha{
+
+.imagenDerecha {
     float: right;
-    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
 }
-.frame{
+
+iframe {
     clear: both;
+    float: left;
+
 }
+
 .publicidad {
     background-color: grey;
     height: 400px;
@@ -95,6 +129,7 @@ a:link{
 .tablaPrincipal tr td {
     border: 1px solid black;
 }
+
 .imagenTamano {
     position: relative;
     left: 32%;
@@ -103,9 +138,9 @@ a:link{
 
 #isla {
     display: none;
-    
-    
-    
+
+
+
 }
 
 #isla:target {
@@ -114,7 +149,7 @@ a:link{
     left: 900px;
     bottom: 635px;
     z-index: 3;
-  
+
 
 }
 
@@ -128,14 +163,15 @@ a:link{
     left: 650px;
     bottom: 655px;
     z-index: 3;
-  
+
 
 }
+
 #Jungla {
     display: none;
-    
-    
-    
+
+
+
 }
 
 #Jungla:target {
@@ -144,22 +180,24 @@ a:link{
     left: 700px;
     bottom: 755px;
     z-index: 3;
-  
+
 
 }
+
 .solTamano {
     height: 50px;
     position: relative;
     left: 140px;
     top: 40px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    
+
 }
 
-#cerrarModal{
+#cerrarModal {
     display: none;
 }
-footer{
+
+footer {
     color: white;
     background: rgb(89, 202, 24);
     text-align: center;
@@ -167,8 +205,12 @@ footer{
     top: 98.1%;
     width: 100%;
 }
-footer p{
+
+footer p {
     margin: 0;
     float: right;
     margin-right: 60px;
+}
+.zonaDerecha{
+    float: right;
 }

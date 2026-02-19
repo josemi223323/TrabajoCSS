@@ -6,21 +6,13 @@ body {
     margin: 0;
 }
 
-header {
-    width: 100%;
-    background-color: rgb(94, 209, 27);
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    border-radius: 0 0 10px 10px;
-}
 .efectoNeon {
-  color: #ffd6d2;
-  font-size: 60px;
-  text-shadow:
-    0 0 4px #df61ff,
-    0 0 8px #4aa4e0,
-    0 0 14px #5f1a7a;
+    color: #ffd6d2;
+    font-size: 60px;
+    text-shadow:
+        0 0 4px #df61ff,
+        0 0 8px #4aa4e0,
+        0 0 14px #5f1a7a;
 }
 
 header h1 {
@@ -55,13 +47,16 @@ nav {
     color: black;
     font-family: sans-serif;
 }
-.contenidoFormulario{
+
+.contenidoFormulario {
     width: 25%;
     margin: auto;
 }
-.contenidoFormulario input{
+
+.contenidoFormulario input {
     margin-bottom: 10px;
 }
+
 ul {
     margin: 0;
     list-style-type: disc;
@@ -85,33 +80,67 @@ a:link {
 
 }
 
-.imagenIzquierda {
-    float: left;
-    clear: both;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.imagenPrincipal {
+    width: 50%;
+    margin: auto;
 }
 
-.imagenDerecha {
+.imagenPrincipal h5 {
+    margin: 0;
+    text-align: right;
+    margin-right: 75px;
+}
+
+.tamanoRegion {
+    width: 600px;
+}
+
+.videoPrincipal {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px;
+    border: 4px solid #333;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.videoPrincipal iframe {
+    display: block;
+    width: 100%;
+}
+.carteleraFotos {
+    width: 60%;
+    margin: auto;
+    background-color: #333;
+    padding: 20px;
+    border: 6px solid #555;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: relative;
+    bottom: 50px;
+}
+.galeriaTamano{
+    height: 120px;
+    position: relative;
+}
+.carteleraFotos img {
+    border: 3px solid #555;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.imagenesIzquierda{
+    float: left;
+}
+.imagenesDerecha{
     float: right;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-
 }
-
-iframe {
-    clear: both;
-    float: left;
-
-}
-
 .publicidad {
     background-color: grey;
     height: 400px;
     width: 10%;
     position: fixed;
-    margin-top: 200px;
+    margin-top: 290px;
     border-radius: 10px;
 }
 
@@ -136,81 +165,6 @@ iframe {
     z-index: 1;
 }
 
-#isla {
-    display: none;
-
-
-
-}
-
-#isla:target {
-    display: block;
-    position: absolute;
-    left: 900px;
-    bottom: 635px;
-    z-index: 3;
-
-
-}
-
-#Montana {
-    display: none;
-}
-
-#Montana:target {
-    display: block;
-    position: absolute;
-    left: 650px;
-    bottom: 655px;
-    z-index: 3;
-
-
-}
-
-#Jungla {
-    display: none;
-
-
-
-}
-
-#Jungla:target {
-    display: block;
-    position: absolute;
-    left: 700px;
-    bottom: 755px;
-    z-index: 3;
-
-
-}
-
-.solTamano {
-    height: 50px;
-    position: relative;
-    left: 140px;
-    top: 40px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-
-}
-
-#cerrarModal {
-    display: none;
-}
-
-footer {
-    color: white;
-    background: rgb(89, 202, 24);
-    text-align: center;
-    position: fixed;
-    top: 98.1%;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    float: right;
-    margin-right: 60px;
-}
-.zonaDerecha{
+.zonaDerecha {
     float: right;
 }

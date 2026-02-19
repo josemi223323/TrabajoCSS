@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    background-color: rgb(94, 209, 27);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    border-radius: 0 0 10px 10px;
+}
+footer {
+    color: white;
+    background: rgb(89, 202, 24);
+    text-align: center;
+    position: fixed;
+    top: 98.1%;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    float: right;
+    margin-right: 60px;
+}

@@ -1,0 +1,51 @@
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 10px;
+  width: 80%;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+input[type="radio"]{
+  position: relative;
+  top: 22px;
+}
+input:focus {
+  border-color: #c0392b;
+  box-shadow: 0 0 0 3px rgba(192, 57, 43, 0.12);
+}
+input[type="radio"]:focus{
+  border-color: #850d00,2px,solid;
+}
+.contenidoFormulario {
+    width: 45%;
+    margin: auto;
+}
+
+.contenidoFormulario input {
+    margin-bottom: 10px;
+}
+.botones {
+  position: relative;
+  left: 120px;
+}
+.botones button {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.botones button:hover {
+  background-color: #a93226;
+}

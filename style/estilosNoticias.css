@@ -1,4 +1,29 @@
-
+.noticiasContenedor{
+  background-color: green;
+  height: 900px;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+.mapaTiempo{
+    position: relative;
+    top: 100px;
+    right: 70px;
+}
+.mapaTiempo h1{
+    position: relative;
+    left: 370px;
+}
+.imagenTamano{
+    border: 6px solid #555;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.imagenTamano {
+    position: relative;
+    left: 32%;
+    z-index: 1;
+}
 #isla {
     display: none;
 

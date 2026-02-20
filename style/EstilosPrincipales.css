@@ -1,157 +1,199 @@
 :root {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .efectoNeon {
-    color: #ffd6d2;
-    font-size: 60px;
-    text-shadow:
-        0 0 4px #df61ff,
-        0 0 8px #4aa4e0,
-        0 0 14px #5f1a7a;
+  color: #ffd6d2;
+  font-size: 60px;
+  text-shadow:
+    0 0 4px #df61ff,
+    0 0 8px #4aa4e0,
+    0 0 14px #5f1a7a;
 }
 
 header h1 {
-    margin: 0;
-    color: white;
-    text-align: center;
+  margin: 0;
+  color: white;
+  text-align: center;
 }
 
 nav {
-    background: rgb(155, 155, 155);
-    overflow: hidden;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-
+  background: rgb(155, 155, 155);
+  overflow: hidden;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
-
+.publicidad {
+  animation: movimiento 26s ease-in-out infinite alternate;
+}
+.derecha {
+  animation: movimientoDerecha 26s ease-in-out infinite alternate;
+}
+.imgPublicidad {
+  width: 150px;
+  position: relative;
+  left: 20px;
+  top: 100px;
+}
+@keyframes movimiento {
+  0% {
+    transform: translateX(0px);
+  } 
+  35% {
+    transform: translateX(-300px);
+  } 
+  92% {
+    transform: translateX(-300px);
+  }
+  100% {
+    transform: translateX(0px);
+  } 
+}
+@keyframes movimientoDerecha {
+     0% {
+    transform: translateX(0px);
+  } 
+  35% {
+    transform: translateX(300px);
+  } 
+  92% {
+    transform: translateX(300px);
+  }
+  100% {
+    transform: translateX(0px);
+  } 
+}
+.textoPublicidad {
+  position: relative;
+  top: 100px;
+}
 .contenidoPrincipal {
-    background-color: green;
-    position: relative;
-    top: 100px;
-    overflow: hidden;
-    width: 70%;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-
+  background-color: green;
+  position: relative;
+  top: 100px;
+  overflow: hidden;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .contenidoPrincipal h1 {
-    position: relative;
-    text-align: center;
-    color: black;
-    font-family: sans-serif;
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
 }
 
-
 ul {
-    margin: 0;
-    list-style-type: disc;
-    padding-left: 20px;
+  margin: 0;
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 li {
-    float: left;
-    list-style-position: inside;
-    margin-right: 20px;
-
+  float: left;
+  list-style-position: inside;
+  margin-right: 20px;
 }
 
 a:link {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .contenidoPrincipal img {
-    border: 3px, solid, black;
-
+  border: 3px, solid, black;
+}
+.textoCartelera {
+  position: relative;
+  bottom: 55px;
+  left: 750px;
 }
 
 .imagenPrincipal {
-    width: 50%;
-    margin: auto;
+  width: 50%;
+  margin: auto;
 }
 
 .imagenPrincipal h5 {
-    margin: 0;
-    text-align: right;
-    margin-right: 75px;
+  margin: 0;
+  text-align: right;
+  margin-right: 75px;
 }
 
 .tamanoRegion {
-    width: 600px;
+  width: 600px;
 }
 
 .videoPrincipal {
-    width: 50%;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 10px;
-    border: 4px solid #333;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-    background: #fff;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 10px;
+  border: 4px solid #333;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  background: #fff;
 }
 
 .videoPrincipal iframe {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 .carteleraFotos {
-    width: 60%;
-    margin: auto;
-    background-color: #333;
-    padding: 20px;
-    border: 6px solid #555;
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-    position: relative;
-    bottom: 50px;
+  width: 60%;
+  margin: auto;
+  background-color: #333;
+  padding: 20px;
+  border: 6px solid #555;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: relative;
+  bottom: 50px;
 }
-.galeriaTamano{
-    height: 120px;
-    position: relative;
+.galeriaTamano {
+  height: 120px;
+  position: relative;
 }
 .carteleraFotos img {
-    border: 3px solid #555;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  border: 3px solid #555;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
-.imagenesIzquierda{
-    float: left;
+.imagenesIzquierda {
+  float: left;
 }
-.imagenesDerecha{
-    float: right;
+.imagenesDerecha {
+  float: right;
 }
 .publicidad {
-    background-color: grey;
-    height: 400px;
-    width: 10%;
-    position: fixed;
-    margin-top: 290px;
-    border-radius: 10px;
+  background-color: grey;
+  height: 400px;
+  width: 10%;
+  position: fixed;
+  margin-top: 290px;
+  border-radius: 10px;
 }
 
 .derecha {
-    right: 10px;
+  right: 10px;
 }
 
 .tablaPrincipal {
-    position: relative;
-    border: 1px solid black;
-    left: 770px;
-    top: 500px;
+  position: relative;
+  border: 1px solid black;
+  left: 770px;
+  top: 500px;
 }
 
 .tablaPrincipal tr td {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
-
 .zonaDerecha {
-    float: right;
+  float: right;
 }

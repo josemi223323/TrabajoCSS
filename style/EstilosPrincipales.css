@@ -55,6 +55,9 @@ nav {
   100% {
     transform: translateX(0px);
   }
+  120% {
+    transform: translateX(0px);
+  }
 }
 @keyframes movimientoDerecha {
   0% {

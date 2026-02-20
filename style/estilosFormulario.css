@@ -1,4 +1,6 @@
-
+.contenidoPrincipal{
+  height: 1300px;
+}
 label {
   display: block;
   font-weight: 600;

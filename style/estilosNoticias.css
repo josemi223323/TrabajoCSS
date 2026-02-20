@@ -1,41 +1,87 @@
-.noticiasContenedor{
-  background-color: green;
-  height: 900px;
-  width: 70%;
-  margin: auto;
-  position: relative;
-  top: 100px;
-}
-.mapaTiempo{
+.noticiasContenedor {
+    background-color: green;
+    height: 1200px;
+    width: 70%;
+    margin: auto;
     position: relative;
     top: 100px;
-    right: 70px;
 }
-.mapaTiempo h1{
+
+
+.mapaTiempo h1 {
     position: relative;
-    left: 370px;
+    left: 430px;
 }
-.imagenTamano{
+
+.imagenTamano {
     border: 6px solid #555;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
+
 .imagenTamano {
     position: relative;
     left: 32%;
     z-index: 1;
 }
+
+.tablaPokemon {
+    position: relative;
+}
+
+.tablaPokemon table {
+    width: 85%;
+    margin: 40px auto 0 auto;
+    border-collapse: collapse;
+    border: 2px solid #555;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.tablaPokemon tr{
+    transition: background ease-in .3s;
+}
+
+.tablaPokemon th {
+    background-color: rgba(0, 0, 0, 0.45);
+    color: #f0f0f0;
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #555;
+}
+
+.tablaPokemon td {
+    padding: 10px;
+    color: #e8f5e8;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    
+}
+
+.tablaPokemon tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.tablaPokemon tr:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.tablaPokemon h2 {
+    color: #e8f5e8;
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+
 #isla {
     display: none;
-
-
 
 }
 
 #isla:target {
     display: block;
     position: absolute;
-    left: 900px;
-    bottom: 635px;
+    left: 720px;
+    top: 140px;
     z-index: 3;
 
 
@@ -48,8 +94,8 @@
 #Montana:target {
     display: block;
     position: absolute;
-    left: 650px;
-    bottom: 655px;
+    left: 480px;
+    top: 130px;
     z-index: 3;
 
 
@@ -65,8 +111,8 @@
 #Jungla:target {
     display: block;
     position: absolute;
-    left: 700px;
-    bottom: 755px;
+    left: 530px;
+    top: 10px;
     z-index: 3;
 
 
@@ -83,4 +129,18 @@
 
 #cerrarModal {
     display: none;
+}
+.botonVolver{
+    position: relative;
+    top: 100px;
+    left: 600px;
+}
+.botonVolver button {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
 }

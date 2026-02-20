@@ -42,30 +42,36 @@ nav {
 @keyframes movimiento {
   0% {
     transform: translateX(0px);
-  } 
+  }
+  10% {
+    transform: translateX(0px);
+  }
   35% {
     transform: translateX(-300px);
-  } 
+  }
   92% {
     transform: translateX(-300px);
   }
   100% {
     transform: translateX(0px);
-  } 
+  }
 }
 @keyframes movimientoDerecha {
-     0% {
+  0% {
     transform: translateX(0px);
-  } 
+  }
+  10% {
+    transform: translateX(0px);
+  }
   35% {
     transform: translateX(300px);
-  } 
+  }
   92% {
     transform: translateX(300px);
   }
   100% {
     transform: translateX(0px);
-  } 
+  }
 }
 .textoPublicidad {
   position: relative;
